@@ -1,0 +1,123 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  background: linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+  color:#fff;
+}
+
+/* Navbar */
+.navbar{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:18px 40px;
+  background: rgba(255,255,255,0.08);
+  backdrop-filter: blur(20px);
+}
+
+.logo{
+  font-size:26px;
+  font-weight:bold;
+}
+
+.logo span{
+  color:#00ffd5;
+}
+
+nav a{
+  color:#fff;
+  margin:0 15px;
+  text-decoration:none;
+  opacity:.8;
+}
+
+nav a:hover{
+  opacity:1;
+}
+
+/* Hero */
+.hero{
+  height:85vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+}
+
+.hero-content h1{
+  font-size:42px;
+}
+
+.hero-content p{
+  margin:15px 0;
+  font-size:18px;
+  opacity:.9;
+}
+
+.btn{
+  display:inline-block;
+  padding:14px 30px;
+  border-radius:30px;
+  background: linear-gradient(135deg,#00ffd5,#00b3ff);
+  color:#000;
+  text-decoration:none;
+  font-weight:bold;
+}
+
+.btn.dark{
+  background: linear-gradient(135deg,#25d366,#128c7e);
+  color:#fff;
+}
+
+/* Sections */
+.section{
+  padding:60px 20px;
+  max-width:1100px;
+  margin:auto;
+}
+
+.glass{
+  background: rgba(255,255,255,0.1);
+  border-radius:25px;
+  backdrop-filter: blur(15px);
+  padding:50px;
+  margin-top:40px;
+}
+
+/* Cards */
+.cards{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+  gap:25px;
+  margin-top:30px;
+}
+
+.card{
+  background: rgba(255,255,255,0.12);
+  padding:30px;
+  border-radius:20px;
+  box-shadow:0 20px 40px rgba(0,0,0,.3);
+  transition:.4s;
+}
+
+.card:hover{
+  transform: translateY(-10px);
+}
+
+/* Join */
+.join{
+  text-align:center;
+}
+
+/* Footer */
+footer{
+  text-align:center;
+  padding:20px;
+  opacity:.7;
+  margin-top:40px;
+}
